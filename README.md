@@ -2,7 +2,7 @@
 
 ## 📚 Overview
 
-A cross-platform audio transcription application using OpenAI's Whisper model with a PyQt6 graphical interface. The model is used locally on your machine, ensuring privacy and control over your data.
+A cross-platform audio transcription application using OpenAI's Whisper model (specifically `whisper-large-v3`) with a PyQt6 graphical interface. The model is used locally on your machine, ensuring privacy and control over your data.
 
 ## 🚀 Features
 
