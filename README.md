@@ -1,10 +1,10 @@
-# Whisper Audio Transcription App
+# 🎤 Whisper Audio Transcription App
 
-## Overview
+## 📚 Overview
 
 A cross-platform audio transcription application using OpenAI's Whisper model with a PyQt6 graphical interface.
 
-## Features
+## 🚀 Features
 
 - High-quality audio transcription
 - Cross-platform GUI
@@ -12,13 +12,13 @@ A cross-platform audio transcription application using OpenAI's Whisper model wi
 - Easy file selection
 - Clipboard integration
 
-## Prerequisites
+## 🔧 Prerequisites
 
 - Python 3.11+
 - macOS, Windows, or Linux
 - FFmpeg installed
 
-## Installation
+## 📦 Installation
 
 1. Clone the repository:
 ```bash
@@ -46,9 +46,9 @@ pip install -r requirements.txt
 python -m src.whisper_transcribe.gui
 ```
 
-## Usage
+## ▶️ Usage
 
-## Configuration
+## ⚙️ Configuration
 
 Supports:
 - Language selection
@@ -68,4 +68,4 @@ MIT License
 
 ## Contact
 
-[Your Name] - [Your Email]
+Leon Melamud - leonmelamud@gmail.com
