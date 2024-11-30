@@ -1,8 +1,8 @@
-# 🎤 Whisper Audio Transcription App
+# 🎤 Whisper Audio Multi-language Transcription App
 
 ## 📚 Overview
 
-A cross-platform audio transcription application using OpenAI's Whisper model with a PyQt6 graphical interface.
+A cross-platform audio transcription application using OpenAI's Whisper model with a PyQt6 graphical interface. The model is used locally on your machine, ensuring privacy and control over your data.
 
 ## 🚀 Features
 
@@ -17,6 +17,7 @@ A cross-platform audio transcription application using OpenAI's Whisper model wi
 - Python 3.11+
 - macOS, Windows, or Linux
 - FFmpeg installed
+- Hugging Face account (for downloading models)
 
 ## 📦 Installation
 
@@ -41,12 +42,22 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+4. Set the Hugging Face token (replace with your actual token):
+```bash
+export HUGGINGFACE_TOKEN=your_huggingface_token_here
+```
+
 5. Run the application:
 ```bash
 python -m src.whisper_transcribe.gui
 ```
 
 ## ▶️ Usage
+
+Run the application:
+```bash
+python -m src.whisper_transcribe.gui
+```
 
 ## ⚙️ Configuration
 
